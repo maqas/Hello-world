@@ -1,0 +1,22 @@
+  let person={                      //Object person with propertiies of name,age and occupation.
+      name:'MARKOSIR',
+      age:21,
+      occupation: 'UX DEVELOPER'
+  };
+  
+  let car ={                        ///Object person's car with properties of model,type,price.
+      model: 'Mercedes',
+      type: 'C200',
+      price: '2,000,000'
+  };
+  
+  
+  let user = Object.assign({},person,car);  //combine person infromation into one object using Object.assign syntax.
+  
+  console.log(user.name);  // OUTPUT---> MARKOSIR
+  console.log(user.model); //OUTPUT---> Mercedes
+  console.log(user.type);  //OUTPUT ---> C200
+  console.log(user.age);   //OUTPUT ---> 21
+  console.log(user.price);  //OUTPUT ---> 2,000,000.
+  
+  
